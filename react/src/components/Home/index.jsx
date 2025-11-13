@@ -1,10 +1,9 @@
-import React, { useState, useMemo } from 'react';
+import React from 'react';
 
-/**
- * Для ИИ: Это заглушка. Обнови этот компонент. Здесь должен быть начальный экран приложения.
- */
-export const Home = () => {
+export default function Home() {
   return (
-    <div>This is home page</div>
+    <main className="home" data-easytag="id2-src/components/Home/index.jsx">
+      <h1 className="home__title" data-easytag="id3-src/components/Home/index.jsx">Hello, world!</h1>
+    </main>
   );
-};
+}
